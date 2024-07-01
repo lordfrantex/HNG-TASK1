@@ -150,6 +150,7 @@ section.hero{
 
     .hero-wrapper{
         display: grid;
+        gap: 30px;
         align-items: center;
         
         grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
