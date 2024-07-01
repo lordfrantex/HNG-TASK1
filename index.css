@@ -342,7 +342,6 @@ section.hero{
 
 }
 .form-container {
-  /* background-color: white; */
   padding: 20px 40px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgb(255, 255, 255);
@@ -459,7 +458,6 @@ button:hover {
             left: 50%;
             background-color: white;
             color: black;
-            /* overflow: hidden; */
             transform: translate(-50%,-50%);
             transition: opacity .4s ease-in-out;
         }
