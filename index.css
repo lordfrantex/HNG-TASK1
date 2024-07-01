@@ -272,13 +272,24 @@ section.hero{
 .goals h2{
     margin-bottom: 30px;
 }
+.goals ul{
+    @media (max-width:700px) {
+        &{
+            text-align: left;
+        }
+    }
+}
 .goals ul li{
     margin-bottom:20px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
-    /* border: 1px solid red; */
+    @media (max-width:700px) {
+        &{
+            justify-content: flex-start;
+        }
+    }
 
    
 }
