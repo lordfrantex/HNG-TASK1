@@ -5,19 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Franklyn Kanebi HNG TASK-1</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <link rel="stylesheet" href="./index.css">
 </head>
 
+
 <body>
     <main>
+        <div id="particles-js" style="position: fixed; z-index: -10; width: 100vw; height:100vh; ">
+        </div>
         <!-- Navbar Section -->
         <header>
             <nav>
                 <div class="logo">Frank <span id="tex">tex</span></div>
                 <ul class="navigation" id="navigation">
                     <li><a href="#home" class="navlink">Home</a></li>
-                    <li><a href="#goals" class="navlink">Goals</a></li>
-                    <li><a href="#hng-links" class="navlink">HNG Links</a></li>
+                    <li><a href="#resume" class="navlink">My Resume</a></li>
+                    <!-- <li><a href="#hng-links" class="navlink">HNG Links</a></li> -->
                     <li><a href="#project" class="navlink">Projects</a></li>
                     <li><a href="#contact" class="navlink">Contact me</a></li>
                     <li><button type="button" class="navlink">Download CV</button></li>
@@ -33,11 +39,12 @@
 
                     <p>Hi, I am Franklyn, <br /> <br /> <br /><span>
                             Frontend Web Developer </span></p>
-                    <p> I am passionate about frontend development and I enjoy bringing beautiful designs to life,
-                        making researches and solving problem and finally and most importantly making money with my
-                        skills.
-                        Thanks to HNG Internship for the opportunity to participate in the ongoing internship. I will
-                        Finish Stong!!!
+                    <p> I am a frontend web developer, highly motivated individual with over 3 years+ of experience in
+                        developing and
+                        implementing software solutions.
+                        I am skilled and proficient in using modern tools and framework such as React JS, Next JS,
+                        Tailwind CSS and any of its libraries e.g. Shadcn UI, etc., TypeScript.
+
                     </p>
                     <div class="icons">
                         <a href="https://www.linkedin.com/in/franklyn-kanebi-37b869235"> <img
@@ -60,7 +67,7 @@
         </section>
 
         <!-- Display section -->
-        <section id="goals">
+        <!-- <section id="goals">
             <div class="goals">
                 <h2> My Goals in the next two years are to: </h2>
                 <ul>
@@ -81,10 +88,188 @@
                             contribute to meaningful projects. </span></li>
                 </ul>
             </div>
+        </section> -->
+
+        <!-- {/* Resume Section */} -->
+        <section class="resume" id="resume">
+
+            <div class="title">
+                <h2>My Resume</h2>
+            </div>
+            <div class="container">
+
+                <div class="resume-nav" id='navRefParent'>
+                    <button class='navRef' data-target='education'> <i class="material-icons">school</i>
+                        <span>Education</span> <span class='fill active'></span></button>
+                    <button class='navRef' data-target='experience'><i class="material-icons">handshake</i>
+                        <span>Experience</span> <span class='fill'></span></button>
+                    <button class='navRef' data-target='qualification'> <i class="material-icons">verified</i>
+                        <span>Certifications</span> <span class='fill'></span></button>
+                    <button class='navRef' data-target='skills'>
+                        <i class="material-icons">lightbulb</i>
+                        <span>Skill Set</span> <span class='fill'></span></button>
+
+
+                </div>
+                <div id="resume-content" class='resume-content' id='contentRef'>
+                    <div class="content-item" id='education'>
+                        <div class="education" id='education'>
+                            <div class="">
+                                <span>
+                                    <i class="fas fa-check-circle"></i>
+                                </span>
+                                <div class="school">
+                                    <p>Federal University of Technology, Akure, Nigeria.</p>
+                                    <p>Bachalor of Technology Cyber Security</p>
+                                </div>
+                                <div class="date">
+                                    <p>2019-2024</p>
+                                </div>
+                            </div>
+                            <div class="">
+                                <span>
+                                    <i class="fas fa-check-circle"></i>
+
+                                </span>
+                                <div class="school">
+                                    <p>High School</p>
+                                    <p>Federal Science and Technical College, Uromi, Nigeria.</p>
+                                </div>
+                                <div class="date">
+                                    <p>2013-2019</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="content-item" id='experience'>
+                        <div class="work" id='works'>
+                            <div class="">
+                                <div class="">
+                                    <h3> <i class="fas fa-check-circle" style="margin-right: 12px;"></i> Frontend
+                                        Developer <span>(<a href="https://www.mohztec.com">mohztec.com</a>)</span></h3>
+                                    <p style="color: #FD6F00;">Contract</p>
+
+                                    <ul>
+                                        <li> Implemented front-end frameworks such as ReactJS, NextJS and BootstrapCSS
+                                            to create
+                                            dynamic user interfaces.</li>
+                                        <li> Worked closely with UI/UX and backend develpoers to integrate REST API and
+                                            to deliver a pixel perefect figma design.</li>
+                                        <li> Utilized React context API for state management for managing application
+                                            data
+                                            and state.</li>
+                                        <li> Conducted thorough testing and debugging to ensure smooth functionality and
+                                            user experience across different browsers and devices.
+                                        </li>
+                                    </ul>
+                                    </p>
+                                </div>
+
+                                <div class="date">
+                                    <p>2020-Present</p>
+                                </div>
+                            </div>
+
+
+                            <div class="">
+                                <div class="">
+                                    <h3> <i class="fas fa-check-circle" style="margin-right: 12px;"></i> Frontend
+                                        Developer <span>(<a
+                                                href="https://www.finexhealth.com">finexhealth.com</a>)</span></h3>
+
+                                    <p style="color: #FD6F00;">Contract</p>
+                                    <ul>
+                                        <li> Worked closely with the companies’ stakeholders ensuring an accurate
+                                            translation of their companies needs into a software product, resulting in
+                                            about 45% increase in productivity</li>
+                                        <li>Built the entire frontend project with modern technologies such as HTML,
+                                            React JS, Bootstrap CSS</li>
+                                        <li> Utilized React context API for state management for managing application
+                                            data
+                                            and state.</li>
+                                        <li> Conducted thorough testing and debugging to ensure smooth functionality and
+                                            user experience across different browsers and devices.
+                                        </li>
+                                    </ul>
+                                    </p>
+                                </div>
+
+                                <div class="date">
+                                    <p>2023-Present</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="content-item" id='qualification'>
+                        <div class="qualification">
+
+                            <div class="">
+                                <div class="">
+                                    <img src="./images/HNG Internship 11_Franklyn Kanebi _certificate-1.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="">
+                                <div class="">
+                                    <img src="./images/Coursera DCYN5DQ7A7GR-1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="content-item" id='skills'>
+                        <div class="skills">
+                            <div class="">
+                                <h4>Technical Skills: </h4><br />
+                                <div class="technical-skills">
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                    <span>Tailwind css</span>
+                                    <span>Typescript</span>
+                                    <span>Nextjs</span>
+                                    <span>Shadcn UI</span>
+                                    <span>Reactjs</span>
+                                    <span>JavaScript</span>
+                                    <span>Scss/Sass</span>
+                                    <span>Bootstrap css</span>
+                                    <span>Redux Toolkit</span>
+                                    <span>REST API</span>
+                                    <span>Firebase</span>
+                                    <span>Git</span>
+                                    <span>Github</span>
+                                    <span>Prisma ORM</span>
+                                    <span>Expressjs</span>
+                                    <span>Nodejs</span>
+                                    <span>Git</span>
+                                    <span>Responsive design</span>
+                                </div>
+                            </div>
+                            <div class="">
+                                <h4>Soft Skills: </h4><br />
+                                <div class="soft-skills">
+                                    <span>Communication</span>
+                                    <span>Teamwork</span>
+                                    <span>Critical Thinking</span>
+                                    <span>Creativity</span>
+                                    <span>Time Management</span>
+                                    <span>Problem Solving</span>
+                                    <span>Debugging</span>
+                                    <span>Adaptability</span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
 
-        <section class="contact" id="contact">
+
+        <!-- <section class="contact" id="contact">
             <h2>Contact Me</h2>
 
             <div class="contact-wrapper">
@@ -119,18 +304,20 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
+
+
 
         <section id="project">
             <div class="project-wrapper">
                 <h2>My Projects</h2>
                 <div class="grid">
-                    <div className="grid-1">Web Development</div>
-                    <div className="grid-2">Search Engine Optimization</div>
-                    <div className="grid-3">Quality Assurance</div>
-                    <div className="grid-4">Web Design</div>
-                    <div className="grid-5">UI/UX</div>
-                    <div className="grid-6">Cyber Security</div>
+                    <div class="grid-1">Web Development</div>
+                    <div class="grid-2">Search Engine Optimization</div>
+                    <div class="grid-3">Quality Assurance</div>
+                    <div class="grid-4">Web Design</div>
+                    <div class="grid-5">UI/UX</div>
+                    <div class="grid-6">Cyber Security</div>
                 </div>
             </div>
         </section>
@@ -138,39 +325,115 @@
             <div class="project">
                 <div class="">
                     <div class="">
-                        <a href="https://github.com/lordfrantex/vanillaProject"><img src="./images/16546614.png"
-                                alt=""></a>
-                    </div>
+                        <div class="">
+                            <a href="https://github.com/lordfrantex/vanillaProject"><img src="./images/16546614.png"
+                                    alt=""></a>
+                        </div>
 
-                    <img src="./images/port/dashboard.png" alt="">
+                        <img src="./images/port/dashboard.png" alt="">
+                    </div>
+                    <div class="">
+                        <h4>Polygon Company Dashboard</h4>
+                        <p>HTML/CSS/ReactJS Development</p>
+                    </div>
                 </div>
                 <div class="">
                     <div class="">
-                        <a href="https://github.com/lordfrantex/finex-website"><img src="./images/16546614.png"
-                                alt=""></a>
-                    </div>
+                        <div class="">
+                            <a href="https://github.com/lordfrantex/finex-website"><img src="./images/16546614.png"
+                                    alt=""></a>
+                        </div>
 
-                    <img src="./images/port/finexhealth-2024.png" alt="">
+                        <img src="./images/port/finexhealth-2024.png" alt="">
+                    </div>
+                    <div class="">
+                        <h4>Health Company Website</h4>
+                        <p>ReactJS Development</p>
+                    </div>
                 </div>
                 <div class="">
                     <div class="">
-                        <a href="https://github.com/lordfrantex/Updated-Mohztec-Site"><img src="./images/16546614.png"
-                                alt=""></a>
-                    </div>
+                        <div class="">
+                            <a href="https://github.com/lordfrantex/Updated-Mohztec-Site"><img
+                                    src="./images/16546614.png" alt=""></a>
+                        </div>
 
-                    <img src="./images/port/mohztec-site.png" alt="">
+                        <img src="./images/port/mohztec-site.png" alt="">
+                    </div>
+                    <div class="">
+                        <h4>Company Fullstack Website</h4>
+                        <p>ReactJS/NextJs/MongoDB/NextAuth Development</p>
+                    </div>
                 </div>
                 <div class="">
                     <div class="">
-                        <a href="https://github.com/lordfrantex"><img src="./images/16546614.png" alt=""></a>
-                    </div>
+                        <div class="">
+                            <a href="https://github.com/lordfrantex"><img src="./images/16546614.png" alt=""></a>
+                        </div>
 
-                    <img src="./images/port/food.png" alt="">
+                        <img src="./images/port/food.png" alt="">
+                    </div>
+                    <div class="">
+                        <h4>Food Odering App</h4>
+                        <p>HTML/CSS/JavaScript Development</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <footer>
+
+        <section class='contact' id='contact'>
+
+            <div class="heading-style">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-left">
+                    <div class="image">
+                        <img src="./images/frank-removebg-preview.png" alt="" />
+
+                    </div>
+                    <div class="icon">
+                        <span> <a href="https://github.com/lordfrantex">
+                                <i class="fab fa-github"></i>
+
+                            </a></span>
+                        <span> <a href="https://twitter.com/L_Franktex">
+                                <i class="fab fa-twitter"></i>
+                            </a></span>
+                        <span> <a href="https://web.facebook.com/lord.franktex.9">
+                                <i class="fab fa-facebook"></i>
+                            </a></span>
+                        <span> <a href="https://www.linkedin.com/in/lord-franktex-37b869235/">
+                                <i class="fab fa-linkedin"></i>
+                            </a></span>
+
+                    </div>
+                    <p>lordfranktex@gmail.com</p>
+                    <p>+234 8102300105</p>
+                </div>
+                <div class="contact-right">
+                    <h2>Send me an Email</h2>
+                    <form ref={form} onSubmit={sendEmail} class="email-container">
+                        <input type="text" placeholder='Name' name='name' />
+                        <input type="email" placeholder='Email' name='email' />
+                        <input type="text" placeholder='Subject' name='subject' />
+                        <textarea placeholder='Start typing here...' name='message'></textarea>
+                        <button type='submit'><span>
+                                <i class="fas fa-paper-plane"></i>
+                            </span> Send</button>
+                        <!-- <ToastContainer
+                            draggable
+                            theme='dark'
+                            hideProgressBar={false}
+                            pauseOnHover
+                            pauseOnFocusLoss /> -->
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- <footer>
             <div class="hng-links" id="hng-links">
                 <div class="">HNG Links</div>
                 <p><a href="https://hng.tech/learn" data-testid="hngLink">hng.tech/learn</a></p>
@@ -178,7 +441,10 @@
                 <p><a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">scrapeanyweb.site</a></p>
             </div>
             <p>copyright@2024 Franklyn Kanebi</p>
-        </footer>
+        </footer> -->
+        <footer><span className='copy'>&copy;</span> 2024 All Rights Reserved: <span className='name'> Lord
+                Frantex</span></footer>
+
     </main>
 
     <!-- Link to javascript file -->
